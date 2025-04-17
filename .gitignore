@@ -22,3 +22,5 @@ models/
 # Saídas de notebooks (opcional - veja adiante como limpar)
 notebooks/*.csv
 notebooks/*.png
+notebooks/.ipynb_checkpoints/
+notebooks/*.ipynb_checkpoints*
