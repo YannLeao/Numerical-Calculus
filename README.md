@@ -11,3 +11,10 @@ Inclui gráfico final com os resultados comparativos.
 
 📎 Acesse diretamente:  
 [![Abrir no Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/yannleao/numerical-calculus/main?filepath=notebooks/PrecisaoDeMaquina.ipynb)
+
+### 2. [Zeros de Funções Reais](notebooks/ZerosDeFuncoesReais.ipynb)
+Estudo das técnicas numéricas para determinar as raízes de funções reais.  
+Apresenta métodos como Bissecção, Posição Falsa, Ponto Fixo, Newton e Secante, comparando suas eficiências por meio de iterações e gráficos.
+
+📎 Acesse diretamente:  
+[![Abrir no Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/yannleao/numerical-calculus/main?filepath=notebooks/ZerosDeFuncoesReais.ipynb)
