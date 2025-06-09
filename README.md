@@ -36,3 +36,7 @@ Inclui análise dos resultados para diferentes dimensões $n = 3$, $n = 10$, $n 
 Aplicação da interpolação polinomial de Newton para estimar o calor específico da água, com base em uma tabela de valores experimentais.  
 O notebook também obtém um polinômio interpolador de grau 3 e, a partir dele, resolve numericamente a equação $p(x) = 0{,}99837$ usando o método da secante, para determinar a temperatura correspondente.  
 Inclui visualizações do polinômio ajustado e análise da convergência do método.
+
+### 5. [Método dos mínimos quadrados](notebooks/metodo_minimos_quadrados.ipynb)
+Utilização do Método dos mínimos quadrados (MMQ) para obter uma função φ(x) que relaciona o preço de fechamento da B3 do ativo com o tempo e prever o preço de fechamento para o próximo dia.
+Além disso, calculamos o erro quadrático e o intervalo de confiança da previsão.
