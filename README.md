@@ -37,6 +37,16 @@ Aplicação da interpolação polinomial de Newton para estimar o calor específ
 O notebook também obtém um polinômio interpolador de grau 3 e, a partir dele, resolve numericamente a equação $p(x) = 0{,}99837$ usando o método da secante, para determinar a temperatura correspondente.  
 Inclui visualizações do polinômio ajustado e análise da convergência do método.
 
-### 5. [Método dos mínimos quadrados](notebooks/metodo_minimos_quadrados.ipynb)
-Utilização do Método dos mínimos quadrados (MMQ) para obter uma função φ(x) que relaciona o preço de fechamento da B3 do ativo com o tempo e prever o preço de fechamento para o próximo dia.
-Além disso, calculamos o erro quadrático e o intervalo de confiança da previsão.
+### 5. [Método dos Mínimos Quadrados](notebooks/metodo_minimos_quadrados.ipynb)
+Utilização do Método dos Mínimos Quadrados (MMQ) para obter uma função $\varphi(x)$ que relaciona o preço de fechamento da B3 de um ativo com o tempo, visando prever o preço de fechamento para o próximo dia.  
+Além disso, são calculados o erro quadrático e o intervalo de confiança da previsão.
+
+### 6. [Integração Numérica](notebooks/integracao_numerica.ipynb)
+Aplicação de métodos de integração numérica para aproximar o valor da integral:
+
+$$
+\int_{0}^{1} e^{-x^2} \, dx
+$$
+
+Foram utilizados os métodos da **Regra dos Trapézios** e da **Regra de 1/3 de Simpson**, com o cálculo de $n$ mínimo necessário para atender a uma precisão previamente estabelecida.  
+
