@@ -50,3 +50,13 @@ $$
 
 Foram utilizados os métodos da **Regra dos Trapézios** e da **Regra de 1/3 de Simpson**, com o cálculo de $n$ mínimo necessário para atender a uma precisão previamente estabelecida.  
 
+### 7. [Modelo SIR - Epidemias com Runge-Kutta](notebooks/modelo_sir.ipynb)
+Simulação da propagação de uma epidemia utilizando o modelo SIR (Suscetíveis, Infectados, Recuperados) resolvido numericamente com o método de **Runge-Kutta de ordem 4 (RK4)**.  
+São plotadas as curvas $S(t)$, $I(t)$ e $R(t)$ ao longo de 60 dias com passo $h = 0{,}1$, permitindo visualizar o comportamento da epidemia.
+
+O notebook também identifica:
+- O **dia do pico** de infectados
+- Quando a epidemia pode ser considerada **controlada**
+
+Inclui gráfico e interpretação dos resultados.
+
